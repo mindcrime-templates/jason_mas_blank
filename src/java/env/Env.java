@@ -26,7 +26,7 @@ public class Env extends Environment
     {
         super.init(args);
         
-        logger.info( "init() arg[0] = " + args[0] );
+        // logger.info( "init() arg[0] = " + args[0] );
         
         model = new WorldModel();
 
