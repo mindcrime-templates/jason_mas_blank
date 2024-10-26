@@ -12,7 +12,7 @@
 
 MAS domestic_robot_exercise5 {
 
-    environment: example.Env(10)
+    environment: env.Env()
 
     agents: agent1;
             agent2;
